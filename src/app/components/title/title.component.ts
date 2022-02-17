@@ -7,8 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TitleComponent implements OnInit {
 
+  public title:string ='';
+  public secTitle:string ='';
+
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.title = 'Bem-vindo ao';
+    this.secTitle = 'ConectaUff';
+  }
 
 }
