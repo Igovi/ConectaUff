@@ -1,0 +1,7 @@
+{
+  "name": "ConectaUff",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

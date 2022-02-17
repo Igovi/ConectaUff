@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ConectaUff",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
