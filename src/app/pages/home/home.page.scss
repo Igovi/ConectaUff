@@ -9,6 +9,7 @@
 }
 
 #container strong {
+  @include flex($allign-item:center);
   font-size: 20px;
   line-height: 26px;
 }
