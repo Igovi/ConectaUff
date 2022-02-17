@@ -1,1 +1,63 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+.titleComponent__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+  margin-left: 25px;
+}
+
+.titleComponent__container .titleComponent__content .titleComponent_upperTitle__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-justify-content: flex-start;
+}
+
+.titleComponent__container .titleComponent__content .titleComponent_upperTitle__container .titleComponent_upperTitle__content {
+  margin-bottom: 0px;
+  font-family: "robotoregular";
+  font-weight: bold;
+  font-size: 32px;
+  color: #617073;
+}
+
+.titleComponent__container .titleComponent__content .titleComponent_lowerTitle__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-justify-content: flex-end;
+}
+
+.titleComponent__container .titleComponent__content .titleComponent_lowerTitle__container .titleComponent_lowerTitle__content {
+  margin-top: 0px;
+  margin-left: 30px;
+  font-family: "robotoregular";
+  font-weight: bolder;
+  font-size: 52px;
+  color: #617073;
+}
+/*# sourceMappingURL=style.css.map */
