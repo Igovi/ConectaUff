@@ -2,9 +2,57 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
+        <img src="../../../assets/images/header2.png">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
         <app-title></app-title>
       </div>
     </div>
   </div>
-  <h1>Gello</h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <app-login-input (user)= 'addItemUser($event)' [email]="true"></app-login-input>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <app-login-input (pass)= 'addItemPass($event)' [email]="false"></app-login-input>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <a href="https://app.uff.br/portal_legado/ativar_conta_ou_recuperar_senha" class="loginPage__linkText">Esqueceu sua senha?</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 loginPage__ButtonContainer">
+        <button class="loginPage__Button">Entrar</button>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <p class="loginPage__p">Aluno da Universidade Federal Fluminense e ainda não possui IdUFF?</p>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <a href="https://app.uff.br/portal_legado/ativar_conta_ou_recuperar_senha" class="loginPage__linkText">Registre-se</a>
+      </div>
+    </div>
+  </div>
 </ion-content>
