@@ -14,7 +14,7 @@ export class TitleComponent implements OnInit {
 
   ngOnInit() {
     this.title = 'Bem-vindo ao';
-    this.secTitle = 'ConectaUff';
+    this.secTitle = 'ConectaUFF';
   }
 
 }
