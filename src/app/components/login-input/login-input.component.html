@@ -1,0 +1,6 @@
+<div class="loginInput__container">
+  <div class="loginInput__content">
+      <input [(ngModel)]="userName" (keyup)="onInput($event)" *ngIf="email" class="loginInput__input" type="text" placeholder="E-mail"  name="email">
+      <input [(ngModel)]="password" (keyup)="onInput($event)" *ngIf="!email" class="loginInput__input" type="password" placeholder="Password" name="password">
+  </div>
+</div>
