@@ -1,8 +1,24 @@
 @import "modules/_all.scss";
 
+ion-content{
+    --background:#F2F4F3;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding-top: 100px;
+    background: #3c31dd;
+}
+
+
 .titleComponent__container{
     @include flex($align-item: center, $justify-content:flex-start);
     margin-left: 25px;
+    margin-bottom: 25px;
     .titleComponent__content{
 
         .titleComponent_upperTitle__container{
@@ -12,7 +28,7 @@
                 margin-bottom: 0px;
                 font-family: "robotoregular";
                 font-weight:bold;
-                font-size: 32px;
+                font-size: 2rem;
                 color: #617073;
             }
             
@@ -22,14 +38,70 @@
 
             .titleComponent_lowerTitle__content{
                 margin-top: 0px;
-                margin-left: 30px;
+                margin-left: 40px;
                 font-family: "robotoregular";
                 font-weight: bolder;
-                font-size: 52px;
+                font-size: 3.25rem;
                 color: #617073;
             }
             
 
         }
     }
+}
+
+.loginInput__container{
+    margin-top: 20px;
+
+    .loginInput__content{
+        @include flex($justify-content: center);
+        .loginInput__input{
+            @include flex($align-item: center);
+            background: #C4C4C480;
+            height: 50px;
+            width: 300px;
+            margin-bottom: 5px;
+            padding-left: 30px;
+            border-radius: 25px;
+            border: 2px solid #002147;
+            box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+            font-family: "robotoregular";
+            font-size: 1rem;
+            &:focus-visible {
+                outline: none;
+            }
+        }
+    }
+}
+
+.loginPage__linkText{
+    margin-top: 5px;
+    @include flex($justify-content: center);
+    color: #002147;
+    text-decoration: none;
+    font-family: "robotoregular";
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.loginPage__ButtonContainer{
+    @include flex($justify-content: center);
+    margin-top: 40px;
+    .loginPage__Button{
+        background: #002147;
+        width: 180px;
+        height: 50px;
+        border-radius: 25px;
+        font-family: "robotoregular";
+        font-weight: bold;
+        font-size: 1.125rem;
+    }
+}
+
+.loginPage__p{
+        @include flex($justify-content: center);
+        margin-top: 150px;
+        margin-bottom: 0px;
+        color: #76757E;
+        font-family: "robotoregular";
+        font-size: 0.7rem;
 }

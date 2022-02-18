@@ -1,3 +1,24 @@
+ion-content {
+  --background:#F2F4F3;
+}
+
+section {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 400px;
+  padding-top: 100px;
+  background: #3c31dd;
+}
+
 .titleComponent__container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -12,6 +33,7 @@
           justify-content: flex-start;
   -webkit-justify-content: flex-start;
   margin-left: 25px;
+  margin-bottom: 25px;
 }
 
 .titleComponent__container .titleComponent__content .titleComponent_upperTitle__container {
@@ -33,7 +55,7 @@
   margin-bottom: 0px;
   font-family: "robotoregular";
   font-weight: bold;
-  font-size: 32px;
+  font-size: 2rem;
   color: #617073;
 }
 
@@ -54,10 +76,106 @@
 
 .titleComponent__container .titleComponent__content .titleComponent_lowerTitle__container .titleComponent_lowerTitle__content {
   margin-top: 0px;
-  margin-left: 30px;
+  margin-left: 40px;
   font-family: "robotoregular";
   font-weight: bolder;
-  font-size: 52px;
+  font-size: 3.25rem;
   color: #617073;
+}
+
+.loginInput__container {
+  margin-top: 20px;
+}
+
+.loginInput__container .loginInput__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-justify-content: center;
+}
+
+.loginInput__container .loginInput__content .loginInput__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-items: center;
+  background: #C4C4C480;
+  height: 50px;
+  width: 300px;
+  margin-bottom: 5px;
+  padding-left: 30px;
+  border-radius: 25px;
+  border: 2px solid #002147;
+  -webkit-box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+  font-family: "robotoregular";
+  font-size: 1rem;
+}
+
+.loginInput__container .loginInput__content .loginInput__input:focus-visible {
+  outline: none;
+}
+
+.loginPage__linkText {
+  margin-top: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-justify-content: center;
+  color: #002147;
+  text-decoration: none;
+  font-family: "robotoregular";
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+
+.loginPage__ButtonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-justify-content: center;
+  margin-top: 40px;
+}
+
+.loginPage__ButtonContainer .loginPage__Button {
+  background: #002147;
+  width: 180px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: "robotoregular";
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.loginPage__p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  color: #76757E;
+  font-family: "robotoregular";
+  font-size: 0.7rem;
 }
 /*# sourceMappingURL=style.css.map */
