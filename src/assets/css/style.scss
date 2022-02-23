@@ -105,3 +105,22 @@ section {
         font-family: "robotoregular";
         font-size: 0.7rem;
 }
+
+.footer__container{
+    .footer__content{
+        background: #002147;
+        height: 60px;
+        .footer__button{
+            background: #002147;
+
+        }
+        .footer__icon{
+            color: #fff;
+            width: 30px;
+            height: 30px;
+        }
+        .footer__selected{
+            background: #15457C;
+        }
+    }
+}
